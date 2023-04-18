@@ -1,0 +1,32 @@
+<Project Sdk="Microsoft.NET.Sdk">
+  <PropertyGroup>
+    <TargetFramework>net6.0</TargetFramework>
+    <ApplicationIcon />
+    <OutputType>Library</OutputType>
+    <StartupObject />
+  </PropertyGroup>
+  <ItemGroup>
+    <PackageReference Include="DevExpress.Reporting.Core" Version="22.2.*-*" />
+  </ItemGroup>
+  <ItemGroup>
+  </ItemGroup>
+  <ItemGroup>
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Update="NewFolder\XtraReport1.cs">
+    </Compile>
+    <Compile Update="NewFolder\XtraReport1.Designer.cs">
+      <DependentUpon>XtraReport1.cs</DependentUpon>
+    </Compile>
+    <Compile Update="XtraReport1.cs">
+    </Compile>
+    <Compile Update="XtraReport1.Designer.cs">
+      <DependentUpon>XtraReport1.cs</DependentUpon>
+    </Compile>
+    <Compile Update="XtraReport2.cs">
+    </Compile>
+    <Compile Update="XtraReport2.Designer.cs">
+      <DependentUpon>XtraReport2.cs</DependentUpon>
+    </Compile>
+  </ItemGroup>
+</Project>

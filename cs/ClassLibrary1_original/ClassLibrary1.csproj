@@ -1,0 +1,41 @@
+<Project Sdk="Microsoft.NET.Sdk">
+  <PropertyGroup>
+    <TargetFramework>net6.0</TargetFramework>
+    <ApplicationIcon />
+    <OutputType>Library</OutputType>
+    <StartupObject />
+  </PropertyGroup>
+  <ItemGroup>
+    <PackageReference Include="DevExpress.Reporting.Core" Version="22.2.*-*" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Remove="NewFolder\XtraReport1.vsrepx" />
+    <None Remove="XtraReport1.vsrepx" />
+    <None Remove="XtraReport2.vsrepx" />
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="NewFolder\XtraReport1.vsrepx" />
+    <EmbeddedResource Include="XtraReport1.vsrepx" />
+    <EmbeddedResource Include="XtraReport2.vsrepx" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Update="NewFolder\XtraReport1.cs">
+      <DependentUpon>XtraReport1.vsrepx</DependentUpon>
+    </Compile>
+    <Compile Update="NewFolder\XtraReport1.Designer.cs">
+      <DependentUpon>XtraReport1.vsrepx</DependentUpon>
+    </Compile>
+    <Compile Update="XtraReport1.cs">
+      <DependentUpon>XtraReport1.vsrepx</DependentUpon>
+    </Compile>
+    <Compile Update="XtraReport1.Designer.cs">
+      <DependentUpon>XtraReport1.vsrepx</DependentUpon>
+    </Compile>
+    <Compile Update="XtraReport2.cs">
+      <DependentUpon>XtraReport2.vsrepx</DependentUpon>
+    </Compile>
+    <Compile Update="XtraReport2.Designer.cs">
+      <DependentUpon>XtraReport2.vsrepx</DependentUpon>
+    </Compile>
+  </ItemGroup>
+</Project>
