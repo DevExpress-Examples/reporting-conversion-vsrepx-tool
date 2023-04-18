@@ -1,8 +1,3 @@
-<!-- default badges list -->
-![](https://img.shields.io/endpoint?url=https://codecentral.devexpress.com/api/v1/VersionRange/629366316/2022.2)
-[![](https://img.shields.io/badge/Open_in_DevExpress_Support_Center-FF7200?style=flat-square&logo=DevExpress&logoColor=white)](https://supportcenter.devexpress.com/ticket/details/T1160699)
-[![](https://img.shields.io/badge/📖_How_to_use_DevExpress_Examples-e9f6fc?style=flat-square)](https://docs.devexpress.com/GeneralInformation/403183)
-<!-- default badges end -->
 # How to Migrate VSREPX Reports to CS / VB Format
 
 ## Overview
@@ -39,4 +34,6 @@ The name of the project that the converter searches for VSREPX files, is specifi
 - [Program.cs](cs/HelperProject/Program.cs) (VB: [Program.vb](vb/HelperProject/Program.vb))
 - [ConverterComponent.cs](cs/HelperProject/ConverterComponent.cs) (VB: [ConverterComponent.vb](vb/HelperProject/ConverterComponent.vb))
 
+## Documentation
 
+- [Report File Formats (CS/VB and VSREPX)](https://docs.devexpress.com/XtraReports/404375/visual-studio-report-designer/report-file-formats-cs-vb-and-vsrepx)
