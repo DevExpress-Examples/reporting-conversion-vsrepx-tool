@@ -10,7 +10,7 @@
   </PropertyGroup>
 
   <ItemGroup>
-    <PackageReference Include="DevExpress.Reporting.Core" Version="22.2.5" />
+    <PackageReference Include="DevExpress.Reporting.Core" Version="23.1.2-pre-23100" />
   </ItemGroup>
 
   <ItemGroup>
