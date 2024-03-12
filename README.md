@@ -34,8 +34,7 @@ The Visual Studio Designer attempts to load a VSREPX file in the `ClassLibrary1`
 
 The name of the project that the converter searches for VSREPX files, is specified by the `ProjectName` variable in the `Program.cs` file. 
 
-## Files to Look At
-
+## Files to Review
 - [Program.cs](cs/HelperProject/Program.cs) (VB: [Program.vb](vb/HelperProject/Program.vb))
 - [ConverterComponent.cs](cs/HelperProject/ConverterComponent.cs) (VB: [ConverterComponent.vb](vb/HelperProject/ConverterComponent.vb))
 
