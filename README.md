@@ -8,7 +8,7 @@
 
 ## Overview
 
-The '.vsrepx' report format has evolved from an attempt to adapt Visual Studio Report Designer for.NET Core projects.
+The '.vsrepx' report format has evolved from an attempt to adapt Visual Studio Report Designer for .NET Core projects.
 
 Since v21.2, we introduced `.cs` / `.vb` format support for our Visual Studio Designer for .NET Core and .NET. The VSREPX format became obsolete, and we recommend the CS/VB format in Visual Studio.
 
